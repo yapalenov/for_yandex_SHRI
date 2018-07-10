@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Редактирование</title>
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/styleforupdate.css">
+    <link rel="stylesheet" href="">
+    <script src="js/bundle.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+</head>
+<body>
+<div id="global_wrapper">
+    <header>
+        <div class="logo"></div>
+    </header>
+    <section class="update_event">
+        <h1>Редактирование встречи</h1>
+        <div class="close_round"><div class="round_img"></div></div>
+        <div class="inline_box">
+            <label for="name">Тема</label>
+            <input id="name" value="Тестовое задание в ШРИ" type="text" placeholder="О чем будете говорить?">
+        </div>
+        <div class="inline_box">
+            <label for="date">Дата</label>
+            <input id="date" type="text" value="14 декабря, 2017" placeholder="14 декабря, 2017">
+        </div>
+        <div class="inline_box">
+            <label for="start">Начало</label>
+            <input id="start" value="16:00" type="text" placeholder="12:00">
+        </div>
+        <span>—</span>
+        <div class="inline_box">
+            <label for="end">Конец</label>
+            <input id="end" value="16:30" type="text" placeholder="13:00">
+        </div>
+        <div class="inline_box">
+            <label for="users">Участники</label>
+            <input type="text" id="users" placeholder="Например, Тор Одинович">
+            <section class="users_list">
+                <section class="addUser">
+
+                </section>
+            </section>
+        </div>
+
+        <section class="selected_users">
+
+        </section>
+
+        <div class="inline_box">
+            <label for="room">Ваша переговорка</label>
+            <div id="room">
+                <article>16:00—16:30</article>
+                <article>Готем · 4 этаж</article>
+            </div>
+        </div>
+
+
+
+    </section>
+    <footer>
+        <div><span>Отмена</span></div>
+        <div><span>Удалить встречу</span></div>
+        <div><span>Сохранить</span></div>
+    </footer>
+</div>
+</body>
+</html>
