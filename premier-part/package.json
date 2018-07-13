@@ -9,7 +9,7 @@
     "node": ">=8.4.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "",
     "lint": "semistandard",
     "reset-db": "rm -f ./db.sqlite3 && node create-mock-data.js",
     "dev": "nodemon index.js"
