@@ -7,3 +7,8 @@ node_js:
 branches:
   only:
     - master
+deploy:
+  provider: heroku
+  app: "yapalenov"
+  api_key:
+    secure: "b7003e5c-1ea3-42fb-be28-da59f1f9aa7f"
