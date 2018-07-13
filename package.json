@@ -1,0 +1,19 @@
+{
+  "name": "for_yandex_shri",
+  "version": "1.0.0",
+  "description": "Задание для Школы Разработки Интерфейсов",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yapalenov/for_yandex_SHRI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yapalenov/for_yandex_SHRI/issues"
+  },
+  "homepage": "https://github.com/yapalenov/for_yandex_SHRI#readme"
+}
